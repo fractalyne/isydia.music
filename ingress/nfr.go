@@ -315,21 +315,21 @@ func GetUltraluminal() *Shape.Album {
 		},
 	}
 
-	hadronic_synthesis := &Shape.Narrative{
-		Episode: Shape.EpisodeText{
-			TrackName:     "Hadronic Synthesis",
-			EpisodeTitle:  "",
-			TaglineText:   "E=mc^2 <|> m=E/c^2",
-			Album:         "Ultraluminal",
-			EpisodeNumber: 1,
-		},
-	}
-
 	owat := &Shape.Narrative{
 		Episode: Shape.EpisodeText{
 			TrackName:     "Of Webs and Threads",
 			EpisodeTitle:  "",
 			TaglineText:   "Sensory Spinnerets",
+			Album:         "Ultraluminal",
+			EpisodeNumber: 1,
+		},
+	}
+
+	dipole_moment := &Shape.Narrative{
+		Episode: Shape.EpisodeText{
+			TrackName:     "Dipole Moment",
+			EpisodeTitle:  "",
+			TaglineText:   "Flux Barrier",
 			Album:         "Ultraluminal",
 			EpisodeNumber: 2,
 		},
@@ -345,9 +345,9 @@ func GetUltraluminal() *Shape.Album {
 		},
 	}
 
-	plasma_film := &Shape.Narrative{
+	ariadnes_adytum := &Shape.Narrative{
 		Episode: Shape.EpisodeText{
-			TrackName:     "Plasma Film",
+			TrackName:     "Ariadne's Adytum",
 			EpisodeTitle:  "",
 			TaglineText:   "",
 			Album:         "Ultraluminal",
@@ -355,43 +355,33 @@ func GetUltraluminal() *Shape.Album {
 		},
 	}
 
-	dipole_moment := &Shape.Narrative{
+	the_unmoored := &Shape.Narrative{
 		Episode: Shape.EpisodeText{
-			TrackName:     "Dipole Moment",
+			TrackName:     "The Unmoored",
 			EpisodeTitle:  "",
-			TaglineText:   "Flux Barrier",
+			TaglineText:   "Silurian Stir",
 			Album:         "Ultraluminal",
 			EpisodeNumber: 5,
 		},
 	}
 
-	atomkraft := &Shape.Narrative{
-		Episode: Shape.EpisodeText{
-			TrackName:     "Geochronology",
-			EpisodeTitle:  "",
-			TaglineText:   "Signal Dissemination",
-			Album:         "Ultraluminal",
-			EpisodeNumber: 6,
-		},
-	}
-
-	ultraluminal := &Shape.Narrative{
+	emergence := &Shape.Narrative{
 		Episode: Shape.EpisodeText{
 			TrackName:     "Emergence",
 			EpisodeTitle:  "Fractalized Awareness",
 			TaglineText:   "",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 7,
+			EpisodeNumber: 6,
 		},
 	}
 
-	coordinate_space := &Shape.Narrative{
+	hadronic_synthesis := &Shape.Narrative{
 		Episode: Shape.EpisodeText{
-			TrackName:     "Ariadne's Adytum",
+			TrackName:     "Hadronic Synthesis",
 			EpisodeTitle:  "",
-			TaglineText:   "",
+			TaglineText:   "E=mc^2 <|> m=E/c^2",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 8,
+			EpisodeNumber: 7,
 		},
 	}
 
@@ -401,7 +391,7 @@ func GetUltraluminal() *Shape.Album {
 			EpisodeTitle:  "",
 			TaglineText:   "Chaos and Stillness",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 9,
+			EpisodeNumber: 10,
 		},
 	}
 
@@ -411,7 +401,7 @@ func GetUltraluminal() *Shape.Album {
 			EpisodeTitle:  "",
 			TaglineText:   "",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 11,
+			EpisodeNumber: 8,
 		},
 	}
 
@@ -421,7 +411,7 @@ func GetUltraluminal() *Shape.Album {
 			EpisodeTitle:  "",
 			TaglineText:   "Becoming Never Ceases",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 12,
+			EpisodeNumber: 10,
 		},
 	}
 
@@ -431,7 +421,7 @@ func GetUltraluminal() *Shape.Album {
 			EpisodeTitle:  "",
 			TaglineText:   "Projections and Reflections",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 13,
+			EpisodeNumber: 11,
 		},
 	}
 
@@ -441,7 +431,7 @@ func GetUltraluminal() *Shape.Album {
 			EpisodeTitle:  "",
 			TaglineText:   "Windows & Visions",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 14,
+			EpisodeNumber: 12,
 		},
 	}
 
@@ -449,9 +439,9 @@ func GetUltraluminal() *Shape.Album {
 		Episode: Shape.EpisodeText{
 			TrackName:     "From the Noise",
 			EpisodeTitle:  "",
-			TaglineText:   "",
+			TaglineText:   "Generate your Path",
 			Album:         "Ultraluminal",
-			EpisodeNumber: 15,
+			EpisodeNumber: 13,
 		},
 	}
 
@@ -469,16 +459,15 @@ func GetUltraluminal() *Shape.Album {
 		},
 		Narratives: []*Shape.Narrative{
 			focus_alignment,
-			hadronic_synthesis,
 			owat,
-			ov,
-			plasma_film,
 			dipole_moment,
-			atomkraft,
-			ultraluminal,
-			coordinate_space,
-			soe,
+			ov,
+			ariadnes_adytum,
+			the_unmoored,
+			emergence,
+			hadronic_synthesis,
 			relay_interference,
+			soe,
 			arafel,
 			ephemera,
 			fsr,

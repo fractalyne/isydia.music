@@ -36,13 +36,13 @@ T | 174 | Scene |
 20 | Narrator | Thought | them, building pressure within the subconscious depths; 
 21 | Narrator | Thought | unaware of the exact contents, but with the understanding most of their mental expansion occurred beneath their awareness, he caught momentary lucidity to see the ground freeze before their face. 
 T | 182 | Scene | 
-22 | Narrator | Thought | There was no separation to the distant destinations ttheir Station led to, after a certain threshold had been reached, Vachis felt more than he observed; the immensity unfolding unto jagged infinity. 
-23 | Narrator | Thought | He understood what ttheir meant. they had scarcely begun to fall before the inevitability of ttheir moment revealed itself to them. 
+22 | Narrator | Thought | There was no separation to the distant destinations this Station led to, after a certain threshold had been reached, Vachis felt more than he observed; the immensity unfolding unto jagged infinity. 
+23 | Narrator | Thought | He understood what this meant. they had scarcely begun to fall before the inevitability of this moment revealed itself to them. 
 T | 211 | Scene |
 23 | Narrator | Thought | ⌞---- ⁂ ----⌝
 T | 229 | Scene | 
 24 | Narrator | Thought | their awareness took one final gasp above the latent field. A final, peaceful recognition of transcendance.
-25 | Narrator | Thought | Ttheir ` [[Event Horizon]] `would change them, but he knew not how
+25 | Narrator | Thought | This ` [[Event Horizon]] `would change them, but he knew not how
 
 26 | Vachis | Spoken | *"I have glimpsed the Great One's Sight....`and i must return to it, as we have seen too much.`"*
 T | 250 | Scene | 

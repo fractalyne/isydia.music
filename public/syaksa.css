@@ -191,173 +191,6 @@
 
 }
 
-/* ---------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------- */
-
-a {
-    /* background-color: rgba(255, 127, 80, 0.4); */
-    color: black;
-}
-
-.navlink {
-    padding: 23px;
-    transition-duration: 100ms;
-    font-family: Comfortaa, sans-serif;
-    color: antiquewhite;
-
-}
-
-.navlink:hover {
-    color: rgba(0, 200, 200, 0.5);
-    /* background-color: rgba(175, 80, 223, 0.4); */
-}
-
-/* navbar shenanigans */
-
-.nav-container {
-    transition-duration: 100ms;
-    background-color: rgba(0, 0, 0, 0.22);
-    padding: 2px;
-    text-align: center;
-}
-
-.nav-container:hover {
-    background-color: rgba(0, 200, 200, 0.5);
-    padding: 2px;
-}
-
-.navbar {
-    /* border: 2px solid teal; */
-    text-align: center;
-}
-
-.navbutton {
-    align-items: flex-start;
-
-}
-.nc-penrose {
-    transition-duration: 500ms;
-    background-color: rgba(0, 0, 0, 0.22);
-    padding: 2px;
-}
-/* navbar shenanigans */
-
-body {
-    /* background-color: black; */
-    text-align: center;
-    background-image: url(img/SYAKSA.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.body-procyon {
-    background-image: url(img/archive_stacks__Tithi\ Luadthong.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.body-isydia {
-    background-image: url(img/0_Isydia\ Banner.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-/* Pseudo-element for background image */
-/* body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url(img/SYAKSA.jpg) no-repeat center center fixed;
-    background-size: cover;
-    transition: opacity 0.3s ease;
-    z-index: -1; /* Behind the content /
-    opacity: 0; /* Initially set to 0 (black background) /
-  } */
-
-.body-text {
-
-    font-family: Turret, sans-serif;
-    text-shadow: black;
-    color: coral;
-    width: 50%;
-    align-content: center;
-    margin: auto;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.82);
-
-}
-
-.placeholder-text {
-    font-family: 'Redacted', sans-serif;
-}
-
-img {
-    max-width: 80%;
-    max-height: 80%;
-    object-fit: contain;
-    box-shadow: 5px 5px 10px black;
-}
-
-img:hover {
-    box-shadow: 5px 5px 15px coral;
-}
-
-.helix-corp {
-    background-image: url(/img/subterrine-square_grandeduc.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-/* .text-between {
-    display: block; /* Initially hide the text elements *
-} */
-
-.timestamp {
-    display: block;
-    /* Initially hide the headers */
-    color: white;
-}
-
-.protonstamp {
-    display: none;
-    /* Initially hide the headers */
-    color: white;
-}
-
-table {
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.attribute-table{
-    display:flex;
-    background-color: rgba(38, 67, 187, 0.82);
-    
-}
-
-#audioPlayer {
-    position: sticky;
-    top: 0;
-    /* The player will stick to the top of the viewport */
-    z-index: 1000;
-    /* Make sure it's on top of other content */
-    /* Add a background to ensure it's readable */
-    padding: 10px;
-    margin: 3px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition-duration: 200ms;
-    border-radius: 3%;
-
-
-}
-
-.audio-container {}
-
 .ac-penrose_engine {
 
     animation: penrose-pulses ease;
@@ -405,6 +238,328 @@ table {
     animation-duration: 1.34s;
     animation-fill-mode: both;
 }
+
+.ac-relay_interference {
+
+    animation: ri-pings ease;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    /* animation-play-state: paused; */
+
+    /* transition: transform 0.6s cubic-bezier(0.68, 3.6, 0.32, 1.6); */
+}
+
+@keyframes ri-pings {
+    0% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.25);
+    }
+
+    6% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.43);
+    }
+
+    8% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(9, 160, 97, 0.979);
+    }
+
+    10% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(9, 194, 132, 0.863);
+    }
+
+    74% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(6, 163, 163, 0.7);
+    }
+
+    85% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(6, 163, 163, 0.4);
+    }
+
+    100% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.25);
+    }
+
+}
+
+.ac-the_unmoored {
+
+    animation: unmoored-orbit ease;
+    animation-iteration-count: infinite;
+    animation-duration: 2.44s;
+    animation-fill-mode: both;
+    /* animation-play-state: paused; */
+
+    /* transition: transform 0.6s cubic-bezier(0.68, 3.6, 0.32, 1.6); */
+}
+
+@keyframes unmoored-orbit {
+    0% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.25);
+    }
+
+    7% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(30, 0, 200, 0.5);
+    }
+
+    10% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgb(105, 2, 136);
+    }
+
+    50% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(3, 72, 151, 0.829);
+    }
+
+    100% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.25);
+    }
+
+}
+
+.ac-omicron_velorum {
+
+    animation: ov-pings ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3.43s;
+    animation-fill-mode: both;
+    border-radius: 95%;
+    /* animation-play-state: paused; */
+
+    /* transition: transform 0.6s cubic-bezier(0.68, 3.6, 0.32, 1.6); */
+}
+
+@keyframes ov-pings {
+    0% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.25);
+    }
+
+    6% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(35, 9, 8, 0.43);
+    }
+
+    8% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(11, 157, 205, 0.79);
+    }
+
+    10% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgb(39, 224, 230, 1);
+    }
+
+    74% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(6, 163, 163, 0.7);
+    }
+
+    85% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(6, 163, 163, 0.4);
+    }
+
+    100% {
+        /* background-color: rgba(0, 0, 0, 0.82); */
+        background-color: rgba(31, 112, 110, 0.25);
+    }
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+a {
+    /* background-color: rgba(255, 127, 80, 0.4); */
+    color: black;
+}
+
+.navlink {
+    padding: 23px;
+    transition-duration: 100ms;
+    font-family: Comfortaa, sans-serif;
+    color: antiquewhite;
+
+}
+
+.navlink:hover {
+    color: rgba(0, 200, 200, 0.5);
+    /* background-color: rgba(175, 80, 223, 0.4); */
+}
+
+/* navbar shenanigans */
+
+.nav-container {
+    transition-duration: 100ms;
+    background-color: rgba(0, 0, 0, 0.22);
+    padding: 2px;
+    text-align: center;
+}
+
+.nav-container:hover {
+    background-color: rgba(0, 200, 200, 0.5);
+    padding: 2px;
+}
+
+.navbar {
+    /* border: 2px solid teal; */
+    text-align: center;
+}
+
+.navbutton {
+    align-items: flex-start;
+
+}
+
+.nc-penrose {
+    transition-duration: 500ms;
+    background-color: rgba(0, 0, 0, 0.22);
+    padding: 2px;
+}
+
+/* navbar shenanigans */
+
+body {
+    /* background-color: black; */
+    text-align: center;
+    background-image: url(img/SYAKSA.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.body-procyon {
+    background-image: url(img/archive_stacks__Tithi\ Luadthong.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.body-isydia {
+    background-image: url(img/0_Isydia\ Banner.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Pseudo-element for background image */
+/* body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(img/SYAKSA.jpg) no-repeat center center fixed;
+    background-size: cover;
+    transition: opacity 0.3s ease;
+    z-index: -1; /* Behind the content /
+    opacity: 0; /* Initially set to 0 (black background) /
+  } */
+
+.title-text {
+
+    width: 50%;
+    align-content: center;
+    margin: auto;
+    opacity: 1;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.82);
+
+}
+
+.body-text {
+
+    font-family: Turret, sans-serif;
+    text-shadow: black;
+    color: coral;
+    width: 50%;
+    align-content: center;
+    margin: auto;
+    padding: 5%;
+    opacity: 1;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.82);
+
+}
+
+.placeholder-text {
+    font-family: 'Redacted', sans-serif;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    box-shadow: 5px 5px 10px black;
+}
+
+img:hover {
+    box-shadow: 5px 5px 15px coral;
+}
+
+.helix-corp {
+    background-image: url(/img/subterrine-square_grandeduc.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* .text-between {
+    display: block; /* Initially hide the text elements *
+} */
+
+.timestamp {
+    display: block;
+    /* Initially hide the headers */
+    color: white;
+}
+
+.protonstamp {
+    display: none;
+    /* Initially hide the headers */
+    color: white;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribute-table {
+    display: flex;
+    background-color: rgba(38, 67, 187, 0.82);
+
+}
+
+#audioPlayer {
+    position: sticky;
+    top: 0;
+    /* The player will stick to the top of the viewport */
+    z-index: 1000;
+    /* Make sure it's on top of other content */
+    /* Add a background to ensure it's readable */
+    padding: 10px;
+    margin: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition-duration: 200ms;
+    border-radius: 3%;
+
+
+}
+
+.audio-container {}
+
+
 
 #audioPlayer:hover {
     background-color: rgba(195, 50, 43, 0.32);
@@ -483,7 +638,8 @@ table {
 .procyon_b {
     /* contains background and styling for Procyon B pages */
     background-image: url("/static/img/ultraluminalcontrast.jpg");
-    background-position: 25% 80%;   /* left-center */
+    background-position: 25% 80%;
+    /* left-center */
 }
 
 
@@ -515,13 +671,13 @@ table {
     height: 200px;
 }
 
-.liminal_spaces{
+.liminal_spaces {
     background-image: url(/img/liminal_spaces.jpg);
     background-size: cover;
 
 }
 
-.midnight_metropolis{
+.midnight_metropolis {
     background-image: url(/img/infiltration.jpg);
     background-size: cover;
 
@@ -708,6 +864,14 @@ table {
     color: purple
 }
 
+.azega-spoken {
+    color: rgb(58, 0, 112)
+}
+
+.azega-thought {
+    color: rgb(78, 32, 121)
+}
+
 .em-r {
     font-family: Redacted;
 }
@@ -745,7 +909,7 @@ table {
         typing 14s steps(18, end),
 }
 
-.typewriter  {
+.typewriter {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid cyan;

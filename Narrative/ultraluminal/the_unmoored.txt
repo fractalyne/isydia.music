@@ -1,6 +1,40 @@
 # EPISODE
 track: The Unmoored
-title: Pioneer
-tagline: 
+title: Awakening in Edra
+tagline: Anchor Threads
 album: Ultraluminal
 episode_number: 6
+
+# STORY
+1 | Azega | Thought | "...dreaming of my time in Telyakaan. how long had it been?"
+3 | Narrator | Thought | Nudged awake, Azega began to stir within their pod. Synapses sluggish as pathways unused pulsed alight, slighting senesence...and starting to remember...
+T | 19 | Scene | Recognition of Purpose
+4 | Narrator | Thought | Edra. Bands and swirls of tan and orange colored the skylight above Azega's pod. System designated Edra. This knowledge confirmed that Telyakaasn persisted, and abaited some groggy anxiety. Even with defined orbital trajectories, void traversal still was more art than science and required large gaps of time spent suspended.
+5 | Narrator | Thought | Waking at this moment meant Azega and their ship (if one could call it that) were entering orbit around the gas giant, currently displaying cyclonic activity framed by the wall.
+6 | Azega | Thought | "...Edra...how many does that make it?"
+7 | Narrator | Thought | It was fuzzy, dreams which melted and flowed together. Soon, Edra would be another
+T | 36 | Scene | Recognition of Purpose
+8 | Narrator | Thought | Connection with Telyakaan meant one thing:
+9 | Azega | Thought | Edra is to be brought into the fold.
+10 | Narrator | Thought | A binary pair lay at the center of this system; approaching periapsis of the captured orbit around the gas giant, Azega scanned for suitable nuclei among the ring material they skimmed under
+11 | Azega | Spoken | "Entry at Yetran is successful. Ring system confirmed, target selection will commence as I approach apoapsis."
+12 | Narrator | Thought | As the shadowed disk of Yetran receded, four point sources of light became visible off towards the Edran binary. This system held promise of habitable worlds, and the potential of a destructive end for one or both progenitors. An end that Telyakaan judged relevant.
+13 | Azega | Thought | ...and so I place the eye
+14 | Narrator | Thought | Beyond the pod Azega exited, their ship contained two seeds:
+15 | Narrator | Thought | The first would be dropped into Yetran, growing into a Gate deep within the middle layers of its atmosphere.
+16 | Narrator | Thought | The second would remain in orbit, shaping one of the chosen bodies from Yetran's rings into a Foldspace Relay. Azega would initiate the shaping, validating Shard alignment upon completion before entering hypersleep once more.
+T | 76 | Scene | Telyakaan's Web
+17 | Narrator | Thought | Azega began the first of several flybys to examine two potential Relay nuclei opposite each other in orbit around Yetran.
+T | 96 | Scene | Pierced
+18 | Narrator | Thought | Azega entered their pod once more and prepared to eject from the rapidly deorbiting shell that was the first Seed. Their oblong craft was snug, yet combined with repurposed slag from the nucleus was enough to skip between the stars.
+19 | Narrator | Thought | The first Seed punched a hole in Yetran's upper atmosphere, a purple smudge in the clouds; as Azega worked, they watched it slowly creep across the disk, driven by the powerful equatorial winds towards Yetran's shadow.
+T | 182 | Scene | Reflections
+99 | Narration | Thought | 「 ✦ ⁂ ✦ 」 
+T | 202 | Scene | Give unto the Shard
+99 | Narration | Thought | 「 ✦ ⁂ ✦ 」 
+T | 230 | Scene | Dreamwalker
+99 | Narration | Thought | 「 ✦ ⁂ ✦ 」 
+T | 268 | Scene | Onwards...
+99 | Narration | Thought | 「 ✦ ⁂ ✦ 」 
+
+# END

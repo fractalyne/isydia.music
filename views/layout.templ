@@ -186,7 +186,7 @@ templ HubLayout(isydia, procyon_b []*model.ExternalLink) {
 // TODO: take in artist
 templ AudioPlayer(item_name, artist string) {
 	<audio id="audioPlayer" class={ "ac-" + item_name } controls>
-		<source src={ "/static/audio/mp3/" + artist + "/" + item_name + ".mp3" } type="audio/mpeg"/>
+		<source src={ "/static/audio/mp3/" + lowerAndUnder(artist) + "/" + item_name + ".mp3" } type="audio/mpeg"/>
 		Your browser does not support the audio element.
 	</audio>
 }
@@ -206,12 +206,14 @@ templ NavBar() {
 			<a class="navlink" href="/credits">Attributes</a> // Credits for the project, and component pieces
 		</div>
 	</div>
+	<br/>
 }
 
 templ Title(title, episode, tagline string) {
 	<h1 class="track-name">{ title }</h1>
 	<h2 class="episode"><b>{ episode }</b></h2>
 	<h3 class="tagline"><small>{ tagline }</small></h3>
+	<br/>
 }
 
 // TODO: when the global timer initiated by audio playback hits timestamp, the color of the text should change

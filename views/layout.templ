@@ -185,7 +185,7 @@ templ HubLayout(isydia, procyon_b []*model.ExternalLink) {
 
 // TODO: take in artist
 templ AudioPlayer(item_name, artist string) {
-	<audio id="audioPlayer" class={ "ac-" + item_name } controls>
+	<audio id="audioPlayer" class={ "ac-" + item_name } controls controlsList="nodownload">
 		<source src={ "/static/audio/mp3/" + lowerAndUnder(artist) + "/" + item_name + ".mp3" } type="audio/mpeg"/>
 		Your browser does not support the audio element.
 	</audio>

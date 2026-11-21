@@ -1,0 +1,45 @@
+
+/*---------------------- Narrator ----------------------*/
+
+.narrator-thought {
+    color: coral
+}
+
+/*---------------------- Naomi ----------------------*/
+
+.naomi-thought {
+    color: teal
+}
+
+.naomi-spoken {
+    color: cyan
+}
+
+/*---------------------- Kai ----------------------*/
+
+.kai-thought {
+    color: seagreen
+}
+
+.kai-spoken {
+    color: green
+}
+
+/*---------------------- syaksa ----------------------*/
+
+.emissary-spoken {
+    color: purple
+}
+
+.azega-spoken {
+    color: rgb(58, 0, 112)
+}
+
+.azega-thought {
+    color: rgb(78, 32, 121)
+}
+
+.em-r {
+    font-family: Redacted;
+}
+

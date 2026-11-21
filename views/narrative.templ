@@ -89,7 +89,8 @@ templ NarrativeLayout(title string, item_name string, narrative *model.Narrative
 			<title>{ title }</title>
 			<link rel="stylesheet" href="/static/css/syaksa.css"/>
 			<link rel="stylesheet" href="/static/css/keyframes.css"/>
-
+			<link rel="stylesheet" href="/static/css/tracks.css"/>
+			<link rel="stylesheet" href="/static/css/characters.css"/>
 		</head>
 		<body class={ strings.Replace(strings.ToLower(artist), " ", "_", -1), item_name }>
 			@NavBar()
@@ -97,7 +98,6 @@ templ NarrativeLayout(title string, item_name string, narrative *model.Narrative
 				<h1></h1>
 				@Title(narrative.Episode.TrackName, narrative.Episode.EpisodeTitle, narrative.Episode.TaglineText)
 			</div>
-			@NavNarrative(back, title, forward)
 			<br/>
 			@AudioPlayer(item_name, artist)
 			<div class={ "body-text", strings.Replace(narrative.Episode.TrackName, " ", "-", -1)+"-text" }>

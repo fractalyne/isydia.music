@@ -109,13 +109,22 @@ body {
     opacity: 0; /* Initially set to 0 (black background) /
   } */
 
+.textends {
+
+}
+.textends:hover {
+   text-shadow: 2px 2px 4px black;
+   background-color: rgba(179, 80, 229.82);
+   transition-duration: 500ms; 
+}
+
 .title-text {
 
     width: 50%;
     align-content: center;
     margin: auto;
     opacity: 1;
-    border-radius: 40%;
+    border-radius: 99999999%;
     background-color: rgba(0, 0, 0, 0.82);
 
 }
@@ -285,7 +294,7 @@ table {
 
 .isydia {
     /* contains background and styling for Isydia pages */
-    background-image: url("/static/img/Isydia.jpg");
+    background-image: url("/static/img/SYAKSA.jpg");
 }
 
 #isydia-container {

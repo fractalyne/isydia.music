@@ -399,7 +399,7 @@ func NarrativeLayout(title string, item_name string, narrative *model.Narrative,
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 16, "</title><link rel=\"stylesheet\" href=\"/static/syaksa.css\"></head>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 16, "</title><link rel=\"stylesheet\" href=\"/static/css/syaksa.css\"><link rel=\"stylesheet\" href=\"/static/css/keyframes.css\"></head>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -494,7 +494,7 @@ func NarrativeLayout(title string, item_name string, narrative *model.Narrative,
 		var templ_7745c5c3_Var24 string
 		templ_7745c5c3_Var24, templ_7745c5c3_Err = templ.JoinStringErrs(title)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 107, Col: 14}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 109, Col: 14}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var24))
 		if templ_7745c5c3_Err != nil {
@@ -536,7 +536,7 @@ func Timestamp(timestamp int) templ.Component {
 		var templ_7745c5c3_Var26 string
 		templ_7745c5c3_Var26, templ_7745c5c3_Err = templ.JoinStringErrs(timestamp)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 116, Col: 44}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 118, Col: 44}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var26))
 		if templ_7745c5c3_Err != nil {
@@ -549,7 +549,7 @@ func Timestamp(timestamp int) templ.Component {
 		var templ_7745c5c3_Var27 string
 		templ_7745c5c3_Var27, templ_7745c5c3_Err = templ.JoinStringErrs(model.SecondsToMMSS(timestamp))
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 116, Col: 87}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `views/narrative.templ`, Line: 118, Col: 87}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ.EscapeString(templ_7745c5c3_Var27))
 		if templ_7745c5c3_Err != nil {

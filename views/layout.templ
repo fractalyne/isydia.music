@@ -21,7 +21,8 @@ templ Layout(title string) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ title }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
 		</head>
 		@NavBar()
 		<body class="procyon_b rift">
@@ -45,7 +46,8 @@ templ BasicText(text string) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ "「⌞ ⁂ ⌝」" }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
 		</head>
 		@NavBar()
 		<body>
@@ -69,7 +71,9 @@ templ IsydiaLayout(collections []*model.Album) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ "Isydia" }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
+
 		</head>
 		<body class={"collection-page isydia"}>
 			@NavBar()
@@ -100,7 +104,9 @@ templ ProcyonLayout(collections []*model.Album) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ "Procyon B" }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
+
 		</head>
 		<body class={"collection-page procyon_b"}>
 			@NavBar()
@@ -132,7 +138,9 @@ templ CollectionLayout(collection *model.Album) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ collection.AlbumText.EpisodeTitle }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
+
 		</head>
 		<body class={lowerAndUnder(collection.AlbumName)+ " collection-page " + strings.Replace(strings.ToLower(collection.ArtistName), " ", "_", -1)}>
 			@NavBar()
@@ -162,7 +170,8 @@ templ HubLayout(isydia, procyon_b []*model.ExternalLink) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>Link Hub</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
 		</head>
 		<body>
 			@NavBar()
@@ -267,7 +276,9 @@ templ AssetLayout(collections []*model.Asset) {
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{ "Procyon B" }</title>
-			<link rel="stylesheet" href="/static/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/syaksa.css"/>
+			<link rel="stylesheet" href="/static/css/keyframes.css"/>
+
 		</head>
 		<body class={"collection-page procyon_b"}>
 			@NavBar()

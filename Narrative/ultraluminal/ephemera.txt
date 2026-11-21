@@ -4,3 +4,31 @@ title: Dreamwalker
 tagline: 
 album: Ultraluminal
 episode_number: 12
+
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+T | 12 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 30 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 57 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 75 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 93 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 112 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 130 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 167 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 185 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 223 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 240 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+# END

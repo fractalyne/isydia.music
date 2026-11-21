@@ -14,6 +14,15 @@ episode_number: 3
 1 | Yanix | Thought | He recalled the informal designation as [[The Forbidden Forest]], and found it strange; as long as he could remember, he'd  lived up here. Forbidden for who? The creatures down in the main habitats couldn't be classified as sentient, even the ones that flew rarely made it high enough. 
 1 | Yanix | Thought | There were a few animals that he would see from time to time near his home, small, skittish things, so clearly *they* weren't forbidden. In any case, he and his companions scattered about the Forest weren't forbidden. It was home, and it was all he knew.
 1 | Yanix | Thought | Yanix's curiosity faded at this, and returned his focus back to the task at hand. Hold the conduit open.
+
+T | 29 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 56 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 67 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 95 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
 T | 126 | Scene | 
 1 | Yanix | Thought | He didn't need to look at the console to know when resonance had been achieved; the incoming plasma channel had shifted to a whiter orange hue, and its magnetic field began behaving something like a standing wave, which he perceived as a buzzing which vibrated his skin.
 1 | Yanix | Thought | Yanix felt increased pressure on the field (a tight, prickly blanket pressing him from all sides), which meant the brunt of the incoming threat had arrived. At this, elsewhere in the Forest, one of his teammates would be adjusting the incoming rate of plasma in real time, using measurements from one of the Relays.

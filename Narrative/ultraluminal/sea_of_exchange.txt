@@ -4,3 +4,12 @@ title:
 tagline: 
 album: Ultraluminal
 episode_number: 9
+
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 42 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
+
+# END

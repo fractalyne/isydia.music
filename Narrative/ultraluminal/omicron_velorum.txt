@@ -6,6 +6,14 @@ album: Ultraluminal
 episode_number: 4
 
 # STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 11 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+T | 55 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
 
 T | 110 | Scene |
 1 | Eknekosk | Spoken | "...repetition is the language of the natural; persistence belongs to a cycle."

@@ -10,5 +10,15 @@ episode_number: 5
 1 | Emissary | Spoken | "Channel open, orient the Shard and begin Resonance Protocol."
 T | 45 | Scene |
 1 | Emissary | Spoken | "...resonance induction acheived with 0.00032% of Core output. Shard responds well and remains stable. Engage Alignment procedure..."
+T | 66 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 86 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 111 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 197 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 227 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
 
 # END

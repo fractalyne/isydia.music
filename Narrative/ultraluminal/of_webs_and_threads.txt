@@ -6,8 +6,32 @@ album: Ultraluminal
 episode_number: 3
 
 # STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 19 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 76 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 115 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+T | 144 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
 T | 183 | Scene | 
 1 | Narrator | Thought | As he stood, scents of salty marine air saturated his awareness. The vacuous space foreign and still, broken by an intrusive sense of flat curiosity and echoing footsteps. 
 1 | Narrator | Thought | A voice entered his mind: 
 1 | Emissary | Spoken | "How did you get here?"`
+T | 210 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+ 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 230 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+T | 268 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
+
+
 # END

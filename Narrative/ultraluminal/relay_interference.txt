@@ -4,3 +4,33 @@ title:
 tagline: Disrupted Connection 
 album: Ultraluminal
 episode_number: 10
+
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 4 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 8 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 12 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 16 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 24 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 35 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 45 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 112 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
+
+
+
+
+
+
+
+
+# END

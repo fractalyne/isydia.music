@@ -4,3 +4,22 @@ title:
 tagline: The process of Becoming never ceases
 album: Ultraluminal
 episode_number: 11
+
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 37 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 45 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 77 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 115 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 154 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 192 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 230 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+# END

@@ -1,0 +1,16 @@
+# EPISODE
+track: Astraphobia
+title: Into the Valley
+tagline: Life evolves as a response to its environment.
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 28 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 47 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 64 | Scene | 
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
+
+# END

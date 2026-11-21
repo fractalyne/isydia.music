@@ -4,3 +4,33 @@ title:
 tagline: Oblivion.
 album: Syaksa
 episode_number: 7
+
+# STORY
+1 | Narrator | Thought |「⌞---- ⁂ ----⌝」
+1 | Narrator | Thought |「⌞--- ⁂ ---⌝」 
+1 | Narrator | Thought |「⌞-- ⁂ --⌝」 
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
+1 | Narrator | Thought | ⌞⁂⌝ 
+1 | Narrator | Thought | Simulation Initiation 
+T | 42 | Scene | 
+1 | Narrator | Thought | Stelliferous Era 
+T | 84 | Scene | 
+1 | Narrator | Thought | Degenerate Era 
+T | 127 | Scene | 
+1 | Narrator | Thought | Darkness Abounds 
+T | 169 | Scene | 
+1 | Narrator | Thought | A Peculiar Process 
+T | 216 | Scene | 
+1 | Narrator | Thought | Battle Against Oblivion
+T | 234 | Scene | 
+1 | Narrator | Thought | Rudderless in the Night 
+T | 255 | Scene | 
+1 | Narrator | Thought | Signal Echoes 
+1 | Narrator | Thought | ⌞⁂⌝ 
+1 | Narrator | Thought | ⌞ ⁂ ⌝ 
+1 | Narrator | Thought | ⌞-- ⁂ --⌝ 
+1 | Narrator | Thought | ⌞--- ⁂ ---⌝
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+
+
+# END

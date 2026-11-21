@@ -1,6 +1,18 @@
 # EPISODE
 track: Flood Basalt
 title:
-tagline: 
+tagline: ravendouglas8506: https://www.youtube.com/watch?v=yH3swz1vBeg
 album: Makers I
 episode_number: 1
+
+# STORY
+1 | Narrator | Thought | ⌞---- ⁂ ----⌝
+T | 38 | Scene | 
+1 | Narrator | Spoken | From realms beyond the stars I came, A conduit of light, without a name. In human form, I walk this earth, A higher being, given birth.
+1 | Narrator | Spoken | Through mortal eyes, I see the skies, Yet know the truth that never dies. A spark of cosmic consciousness, In human guise, I now express.
+1 | Narrator | Spoken | Bound by flesh, yet spirit free, A timeless soul in you and me. I bridge the worlds, both near and far, A conduit of what we are.
+T | 77 | Scene | https://www.youtube.com/watch?v=yH3swz1vBeg
+# END
+ravendouglas8506
+1 year ago
+https://www.youtube.com/watch?v=yH3swz1vBeg

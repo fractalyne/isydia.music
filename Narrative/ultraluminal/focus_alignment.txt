@@ -1,7 +1,7 @@
 # EPISODE
-track: Astraphobia
-title: Into the Valley
-tagline: Life evolves as a response to its environment.
+track: Focus Alignment
+title: Bowshock
+tagline: Forward Shield
 # STORY
 1 | Narrator | Thought | ⌞---- ⁂ ----⌝
 T | 28 | Scene | 

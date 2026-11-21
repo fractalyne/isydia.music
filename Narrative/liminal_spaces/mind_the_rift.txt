@@ -4,3 +4,9 @@ title:
 tagline: 
 album: Liminal Spaces
 episode_number: 1
+# STORY
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
+
+1 | Narrator | Thought |「⌞ ⁂ ⌝」
+T | 122 | Scene | 
+# END

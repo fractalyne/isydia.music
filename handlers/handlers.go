@@ -24,7 +24,7 @@ func RiftHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func NexusHandler(w http.ResponseWriter, r *http.Request) {
-	component := views.AspectDisplay("「⌞---- ⁂ ----⌝」", "...pathways converge here...")
+	component := views.AspectDisplay("「⌞---- ⁂ ----⌝」", "「⌞---- Domain ⁂ Selection ----⌝」")
 
 	if err := component.Render(r.Context(), w); err != nil {
 		http.Error(w, "Render error", http.StatusInternalServerError)

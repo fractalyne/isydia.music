@@ -18,8 +18,20 @@
     src: url(/static/fonts/Turret_Road/TurretRoad-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: Azaret;
+    src: url(/static/fonts/Azeret_Mono/AzeretMono-VariableFont_wght.ttf) format('truetype');
+}
 
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url(/static/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+}
 
+@font-face {
+    font-family: AlphaCentauri;
+    src: url(/static/fonts/alpha-centauri-font/Alphacentauri-MVY4p.ttf) format('truetype');
+}
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
@@ -32,7 +44,7 @@ a {
 .navlink {
     padding: 23px;
     transition-duration: 100ms;
-    font-family: Comfortaa, sans-serif;
+    font-family: SpaceGrotesk, sans-serif;
     color: antiquewhite;
 
 }
@@ -77,19 +89,19 @@ a {
 body {
     /* background-color: black; */
     text-align: center;
-    background-image: url(img/SYAKSA.jpg);
+    background-image: url(/static/img/SYAKSA.jpg);
     background-size: cover;
     min-height: 100vh;
 }
 
 .body-procyon {
-    background-image: url(img/archive_stacks__Tithi\ Luadthong.jpg);
+    background-image: url(/static/img/archive_stacks__Tithi\ Luadthong.jpg);
     background-size: cover;
     min-height: 100vh;
 }
 
 .body-isydia {
-    background-image: url(img/0_Isydia\ Banner.jpg);
+    background-image: url(/static/img/0_Isydia\ Banner.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -118,20 +130,15 @@ body {
    transition-duration: 500ms; 
 }
 
-.title-text {
 
-    width: 50%;
-    align-content: center;
-    margin: auto;
-    opacity: 1;
-    border-radius: 99999999%;
-    background-color: rgba(0, 0, 0, 0.82);
 
-}
+
+
+
 
 .body-text {
 
-    font-family: Turret, sans-serif;
+    font-family: SpaceGrotesk, sans-serif;
     text-shadow: black;
     color: coral;
     width: 50%;
@@ -160,7 +167,7 @@ img:hover {
 }
 
 .helix-corp {
-    background-image: url(/img/subterrine-square_grandeduc.jpg);
+    background-image: url(/static/img/subterrine-square_grandeduc.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -180,6 +187,7 @@ img:hover {
 
 .timestamp {
 
+    font-family: Turret, sans-serif;
    background-color: rgba(0, 0, 0, 0.00);
     /* Initially hide the headers */
     color: white;
@@ -215,7 +223,6 @@ table {
 }
 
 .attribute-table {
-    display: flex;
     background-color: rgba(38, 67, 187, 0.82);
 
 }
@@ -259,7 +266,7 @@ table {
 }
 
 .home {
-    background-image: url(/img/thumbnails/Isydia\ -\ Syaksa.jpg);
+    background-image: url(/static/img/thumbnails/Isydia\ -\ Syaksa.jpg);
 }
 
 .horizons {

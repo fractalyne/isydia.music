@@ -7,19 +7,42 @@
 }
 
 .liminal_spaces {
-    background-image: url(/img/liminal_spaces.jpg);
+    background-image: url(/static/img/liminal_spaces.jpg);
     background-size: cover;
+}
 
+.mind_the_rift {
+    background-image: url(/static/img/liminal_spaces.jpg);
+    background-size: cover;
+}
+
+.restitution {
+    background-image: url(/static/img/liminal_spaces.jpg);
+    background-size: cover;
+}
+
+.nightly_netrunning {
+    background-image: url(/static/img/liminal_spaces.jpg);
+    background-size: cover;
 }
 
 .midnight_metropolis {
-    background-image: url(/img/infiltration.jpg);
+    background-image: url(/static/img/infiltration.jpg);
     background-size: cover;
-
 }
 
-.flood-basalt {
-    background-image: url(/img/Flood\ Basalt\ __\ Liu\ Zishan.jpg);
+.infiltration {
+    background-image: url(/static/img/infiltration.jpg);
+    background-size: cover;
+}
+
+.flood_basalt {
+    background-image: url(/static/img/Flood\ Basalt\ __\ Liu\ Zishan.jpg);
+    background-size: cover;
+}
+
+.manifold_existence {
+    background-image: url(/static/img/manifold_existence-[vimesart].png);
     background-size: cover;
 }
 
@@ -31,7 +54,7 @@
 }
 
 .portal {
-    background-image: url(img/_portal_.jpg);
+    background-image: url(/static/img/_portal_.jpg);
 }
 
 .portal-text {
@@ -52,7 +75,7 @@
 }
 
 .the_forbidden_forest {
-    background-image: url(img/_forbidden-forest_.jpg);
+    background-image: url(/static/img/forbidden-forest.jpg);
     background-size: cover;
 }
 
@@ -64,7 +87,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(img/_forbidden-forest_.jpg) no-repeat center center fixed;
+    background: url(/static/img/forbidden-forest.jpg) no-repeat center center fixed;
     background-size: cover;
     transition: opacity 0.3s ease;
     z-index: -1;
@@ -76,21 +99,21 @@
 .the_forbidden_forest-text {}
 
 .atomkraft {
-    background-image: url(img/_atomkraft_.jpg);
+    background-image: url(/static/img/atomkraft.jpg);
     background-size: cover;
 }
 
 .atomkraft-text {}
 
 .astraphobia {
-    background-image: url(img/_astraphobia_.jpg);
+    background-image: url(/static/img/astraphobia.jpg);
     background-size: cover;
 }
 
 .astraphobia-text {}
 
 .bulwark {
-    background-image: url(img/_Bulwark.jpg);
+    background-image: url(/static/img/Bulwark.jpg);
     background-size: cover;
 }
 
@@ -98,15 +121,15 @@
     color: teal
 }
 
-.proton-decay {
-    background-image: url(img/_proton-decay_.jpg);
+.proton_decay {
+    background-image: url(/static/img/proton-decay.jpg);
     background-size: cover;
 }
 
 .proton-text {}
 
 .shifting-sea {
-    background-image: url(img/_Across\ the\ Shifting\ Sea.jpg);
+    background-image: url(/static/img/_Across\ the\ Shifting\ Sea.jpg);
     background-size: cover;
 }
 
@@ -124,7 +147,8 @@
 .track-name {
     text-align: center;
     color: aqua;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-family: AlphaCentauri, sans-serif;
 }
 
 .step-forward {
@@ -150,6 +174,22 @@
 
 .step-back:hover {
     background-color: rgba(90, 109, 176, 0.3);
+}
+
+
+.title-text {
+
+    width: 50%;
+    align-content: center;
+    margin: auto;
+    opacity: 1;
+    border-radius: 99999999%;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.episode{
+
+    font-family: AlphaCentauri, sans-serif;
 }
 
 .episode {

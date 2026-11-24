@@ -5,7 +5,6 @@ tagline: no...not a dream...
 
 # STORY
 
-T | 0 | Copper Skies | __
 1 | Narrator | Thought | I awoke to copper skies and auburn sunbeams. My visor was covered in dew droplets with mist permeating the air. Distant clouds glimmered in the warm light as the pillars that kept us company in our odyssey slowly blended with the sky. The walkers had stopped, and upon my stirring began to diffuse. Streams of iridescent mist gathered at the cliff's edge before blowing behind me toward the forest as I was gently laid on the ground. They flowed past several massive machines that resembled hourglasses laid on their side.
 2 | Narrator | Thought | Machines stood like sentries at the edge of the Forest, mist tethered in long laces to the center of the hourglass-shaped constructs. They pooled in the clearing, where Kai lay as if in a deep sleep, before continuing on into open air. A river of fog. A low hum emanated from each of them, with pulsing light from where the two bulbs met. 
 T | 36 |  | __

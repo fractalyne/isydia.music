@@ -6,11 +6,17 @@ album: Makers I
 episode_number: 2
 
 # STORY
-1 | Narrator | Thought | Landing on the hard basalt summit, Naomi stared down as ripples of clouds formed as air was forced up over the lone mountaintop; she mused about the geology that produced her perch above the isolating waters, witnessing shadows from a future that awaited the empty ocean...
+1 | Narrator | Thought | Landing on the hard basalt summit, Naomi stared down where slope met sea as air was forced up over the lone mountaintop; she mused about the geology that produced her perch above the isolating waters, witnessing shadows from a future that awaited the empty ocean...
 T | 51 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 T | 89 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 T | 115 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 T | 140 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 T | 179 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 T | 192 | Scene |
+1 | Narrator | Thought |「⌞ ⁂ ⌝」 
 # END
